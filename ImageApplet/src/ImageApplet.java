@@ -6,7 +6,7 @@ public class ImageApplet extends Applet {
 
     public void init() {
         // Load the image from the given path
-        img = getImage(getDocumentBase(), "image.jpg");  // Image should be in the same directory
+        img = getImage(getDocumentBase(), "java_Image.png");  // Image should be in the same directory
     }
 
     public void paint(Graphics g) {
